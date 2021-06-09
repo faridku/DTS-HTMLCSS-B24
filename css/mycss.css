@@ -121,10 +121,18 @@ header{
     background-color: #44c048;
     margin-right: 15px;
     color: white;
+    box-shadow: 5px 5px rgba(155, 154, 154, 0.6);
+    
 }
 
 .btn-school:hover{
     background-color: #238823;
+    transition: all .5s;
+}
+
+.btn-school:active{
+    box-shadow: none;
+    transition: all .5s;
 }
 
 .icon{
@@ -179,7 +187,7 @@ header{
 
 .btn-learn {
     background-color: #44c048;
-    border-radius: 5px;
+    border-radius: 25px;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -187,13 +195,20 @@ header{
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    box-shadow: 5px 5px rgba(155, 154, 154, 0.6);
+    margin-top: 20px;
 }
 
 .btn-learn:hover {
     background-color: #238823;
-    transition: 0.9s;
+    transition: all 0.5s;
 }
 
+.btn-learn:active{
+    background-color: #238823;
+    box-shadow: none;
+    transition: all .5s;
+}
 /* Contact Us */
 
 .contact-us{
