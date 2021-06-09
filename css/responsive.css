@@ -29,6 +29,35 @@
         float: none;
         width: 100%;
     }
+    
+    .form-left{
+        width: 100%;
+    }
+
+    .form-right{
+        width: 100%;
+    }
+
+    .contact-us{
+        width: 100%;
+    }
+
+    .contact-form{
+        width: 100%;
+        margin-left: 5%;
+    }
+    
+    .title{
+        width: 90%;
+    }
+
+    .email-form{
+        width: 90%;
+    }
+
+    .message{
+        width: 90%;
+    }
 }
 
 @media all and (max-width: 670px){

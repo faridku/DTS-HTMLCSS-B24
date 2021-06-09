@@ -18,15 +18,16 @@
                 <div class="fa fa-bars icon" style=""></div>
                 <div class="header-right">
                     <ul>
-                        <li><a href="#">Beranda</a></li>
-                        <li><a href="#">Profile</a></li>
+                        <li><a href="#dashboard">Beranda</a></li>
+                        <li><a href="#about-us">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
                         <li><a href="#">Team</a></li>
                     </ul>
                 </div>
             </div>
         </header>
         <!-- MAIN BODY (TOP WRAPPER) -->
-        <div class="top-wrapper">
+        <div class="top-wrapper" id="dashboard" name="dashboard">
             <div class="container">
                 <div class="gradient-color-header">
                     <div class="txt-header">
@@ -42,20 +43,57 @@
             </div>    
         </div>
         <!-- CONTENT 2-->
-        <div class="container">
-            <div class="about-us">
-                <h1>About Us</h1>
-                <img class="image-about" src="assets/online.jpg"/>
-                <div class="about-content">
-                    <h2>The Best Online School You Can Have</h2>
-                    <h3>Anytime and Anywhere</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed deserunt voluptatibus possimus blanditiis reiciendis. Qui, facilis! Delectus exercitationem dolores sapiente?</p>
-                    <p><a href="" class="btn-learn">Learn More.</a></p>
+        <section id="about-us" name="about-us">
+            <div class="container">
+                <div class="about-us">
+                    <h1>About Us</h1>
+                    <img class="image-about" src="assets/online.jpg"/>
+                    <div class="about-content">
+                        <h2>The Best Online School You Can Have</h2>
+                        <h3>Anytime and Anywhere</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed deserunt voluptatibus possimus blanditiis reiciendis. Qui, facilis! Delectus exercitationem dolores sapiente?</p>
+                        <a href="" class="btn-learn">Learn More.</a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- CONTENT 3-->
+        </section>
+        <!-- CONTENT 3 -->
 
+
+        <!-- CONTENT 4 -->
+        <section class="contact-us" id="contact">
+            <div class="container">
+                <div class="white-box-contact">
+                    <div class="header-contact">
+                        <h1>Contact Us</h1>
+                    </div>
+                    <div class="contact-form">
+                        <div class="form-left">
+                            <p class="nama">Nama Lengkap :</p>
+                            <input type="text" class="title" placeholder="Nama Lengkap..">
+                            <p class="label">Email :</p>
+                            <input type="text" id="email" class="email-form" placeholder="Email Address.."> 
+                            <p class="label">Judul Pesan :</p>
+                            <input type="text" class="title" placeholder="Judul Pesan..">
+                        </div>
+                        <div class="form-right">
+                            <p class="pesan">Pesan :</p>
+                            <textarea class="message" placeholder="Tulis Pesanmu Disini.."></textarea>
+                        </div>
+                    </div>
+                    <div class="submit-contact">
+                        <input type="submit" class="btn btn-submit-ct" value="Send Message">
+                    </div>
+                    <div class="other-contact">
+                        <ul class="media-social">
+                            <li><a class="fa fa-facebook"></a></li>
+                            <li><a class="fa fa-twitter"></a></li>
+                            <li><a class="fa fa-instagram"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- Footer-->
     </body>
 
