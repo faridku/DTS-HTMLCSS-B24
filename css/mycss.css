@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 html, body,
 ul, ol, li,
 h1, h2, h3, h4, h5, h6, p, div {
@@ -150,6 +154,7 @@ header{
     display: inline-block;
     background-color: rgba(238, 238, 238, 0.445);
     text-align: left;
+    padding-top: 30px;
 }
 
 .about-us h1 {
@@ -216,6 +221,7 @@ header{
 .contact-us{
     background-color: rgba(238, 238, 238, 0.445);
     padding: 100px 0px;
+
 }
 
 .white-box-contact{
@@ -226,7 +232,7 @@ header{
 }
 
 .header-contact{
-    padding: 50px 25px;
+    padding: 40px 25px;
     text-align: center;
     font-size: 30px;
     letter-spacing: 5px;
@@ -306,6 +312,7 @@ header{
     margin-left: 0px;
     outline: none;
     resize: none;
+    padding: 0px 10px;
 }
 
 .submit-contact{
