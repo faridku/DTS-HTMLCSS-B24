@@ -58,6 +58,10 @@
     .message{
         width: 90%;
     }
+    
+    .team {
+        display: inline;
+    }
 }
 
 @media all and (max-width: 670px){
@@ -86,4 +90,44 @@
         margin-bottom: 10px;
         text-align: center;
     }
+    
+    section {
+        margin-right: 3px;
+    }
+
+    .section-title {
+        margin-top: 20px;
+    }
+
+    .section-copy {
+        margin-bottom: 120px;
+    }
+
+    .team-name {
+        margin-top: 50px;
+    }
+
+    .teams {
+        display: block;
+        height: 100%;
+
+    }
+
+    .team {
+        display: block;
+        background-color: rgb(240, 240, 240);
+        margin-bottom: 70px;
+    }
+    .team-image {
+
+    }
+
+    .team-image img {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        width: 150px;
+        padding-bottom: 50px;
+    }
+}
 }
