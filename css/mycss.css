@@ -239,8 +239,10 @@ header{
 
 .contact-form{
     padding: 20px 25px;
-    display: inline-block;
-    margin-bottom: 20px;        
+    display: flex;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: center;        
 }
 
 .form-left{
