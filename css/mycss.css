@@ -38,7 +38,7 @@ header{
 }
 
 .searchbar{
-    margin-left: 25%;
+    margin-left: 15%;
     padding: 5px 15px;
     border-radius: 25px;
     background-color: rgba(255,255,255 , 1 );
@@ -358,7 +358,7 @@ header{
     transition: all .5s;
 }
 
-section {
+.team-section {
     display: flex;
     align-items: center;
     flex-direction: column;
