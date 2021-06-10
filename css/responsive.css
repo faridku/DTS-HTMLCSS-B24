@@ -62,6 +62,11 @@
     .team {
         display: inline;
     }
+
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
 }
 
 @media all and (max-width: 670px){
@@ -129,5 +134,9 @@
         width: 150px;
         padding-bottom: 50px;
     }
+
+    .footer-col{
+        width: 100%;
+    }
 }
-}
+
