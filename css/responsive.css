@@ -67,6 +67,10 @@
         width: 50%;
         margin-bottom: 30px;
     }
+
+    .pesan {
+        margin-top: 10px;
+    }
 }
 
 @media all and (max-width: 670px){

@@ -240,13 +240,13 @@ header{
 .contact-form{
     padding: 20px 25px;
     display: inline-block;
-    margin-bottom: 20px;
-    margin-left: 15%;
+    margin-bottom: 20px;        
 }
 
 .form-left{
     float:left;
-    width: 50%;
+    width: 40%;
+    margin-right: 20px;
 }
 
 .nama{
@@ -286,6 +286,7 @@ header{
 
 .form-right{
     float: right;
+    
 }
 
 .pesan{
